@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>onsit-5</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark css-nav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Furni<span>.</span></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+          <ul class="navbar-nav ms-auto mb-2 css-nav-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ms-5 css-nav-n">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                ><img src="./image/user.svg" alt="img"
+              /></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./cart.html"
+                ><img src="./image/cart.svg" alt="img"
+              /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="hero-1">
+              <h1>Cart</h1>
+              <p class="mb-4 w-75">
+                Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet
+                velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+              </p>
+              <p>
+                <a href="./shop.html" class="btn btn-warning me-2">Shop Now</a>
+                <a href="#" class="btn btn-outline-light">Explore</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="hero-img">
+              <img src="./image/couch.png" class="img-fluid" alt="img" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="untree_co-section before-footer-section text-center">
+      <div class="container">
+        <div class="row mb-5">
+          <form class="col-md-12" method="post">
+            <div class="site-blocks-table">
+              <table class="table cart-table">
+                <thead>
+                  <tr>
+                    <th class="product-thumbnail p-4">Image</th>
+                    <th class="product-name p-4">Product</th>
+                    <th class="product-price p-4">Price</th>
+                    <th class="product-quantity p-4">Quantity</th>
+                    <th class="product-total p-4">Total</th>
+                    <th class="product-remove p-4">Remove</th>
+                  </tr>
+                </thead>
+
+                <tbody>
+                  <tr>
+                    <td class="product-thumbnail">
+                      <img
+                        src="./image/product-1.png"
+                        alt="Product Image"
+                        class="w-75"
+                      />
+                    </td>
+
+                    <td class="product-name p-5">
+                      <h2>Product 1</h2>
+                    </td>
+
+                    <td class="product-price p-5">$49.00</td>
+
+                    <td>
+                      <div class="quantity-container p-5">
+                        <button type="button" class="qty-btn">−</button>
+                        <input
+                          type="text"
+                          class="quantity-amount w-25"
+                          value="1"
+                        />
+                        <button type="button" class="qty-btn">+</button>
+                      </div>
+                    </td>
+
+                    <td class="product-total p-5">$49.00</td>
+
+                    <td class="product-remove p-5">
+                      <a href="#" class="remove-btn">×</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td class="product-thumbnail">
+                      <img
+                        src="./image/product-2.png"
+                        alt="Product Image"
+                        class="w-75"
+                      />
+                    </td>
+
+                    <td class="product-name p-5">
+                      <h2>Product 2</h2>
+                    </td>
+
+                    <td class="product-price p-5">$49.00</td>
+
+                    <td>
+                      <div class="quantity-container p-5">
+                        <button type="button" class="qty-btn">−</button>
+                        <input
+                          type="text"
+                          class="quantity-amount w-25"
+                          value="1"
+                        />
+                        <button type="button" class="qty-btn">+</button>
+                      </div>
+                    </td>
+
+                    <td class="product-total p-5">$49.00</td>
+
+                    <td class="product-remove p-5">
+                      <a href="#" class="remove-btn">×</a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="fo">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row mb-5">
+              <div class="col-md-6 mb-3 mb-md-0">
+                <button class="btn btn-black btn-sm btn-block">
+                  Update Cart
+                </button>
+              </div>
+              <div class="col-md-6">
+                <button class="btn btn-outline-black btn-sm btn-block">
+                  Continue Shopping
+                </button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <label class="text-black h4" for="coupon">Coupon</label>
+                <p>Enter your coupon code if you have one.</p>
+              </div>
+              <div class="col-md-8 mb-3 mb-md-0">
+                <input
+                  type="text"
+                  class="form-control py-3"
+                  id="coupon"
+                  placeholder="Coupon Code"
+                />
+              </div>
+              <div class="col-md-4">
+                <button class="btn btn-black">Apply Coupon</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 pl-5">
+            <div class="row justify-content-end">
+              <div class="col-md-7">
+                <div class="row">
+                  <div class="col-md-12 text-right border-bottom mb-5">
+                    <h3 class="text-black h4 text-uppercase">Cart Totals</h3>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col-md-6">
+                    <span class="text-black">Subtotal</span>
+                  </div>
+                  <div class="col-md-6 text-right">
+                    <strong class="text-black">$230.00</strong>
+                  </div>
+                </div>
+                <div class="row mb-5">
+                  <div class="col-md-6">
+                    <span class="text-black">Total</span>
+                  </div>
+                  <div class="col-md-6 text-right">
+                    <strong class="text-black">$230.00</strong>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <button
+                      class="btn btn-black btn-lg py-3 btn-block"
+                      onclick="window.location = './chaeckout.html'"
+                    >
+                      Proceed To Checkout
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="subscription-form">
+              <h3 class="d-flex align-items-center">
+                <span class="me-1">
+                  <img
+                    src="./image/envelope-outline.svg"
+                    alt="Image"
+                    class="img-fluid"
+                  />
+                </span>
+                <span>Subscribe to Newsletter</span>
+              </h3>
+
+              <form action="#" class="row g-3">
+                <div class="col-auto">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="col-auto">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="col-auto">
+                  <button class="btn btn-primary">
+                    <span class="fa fa-paper-plane"></span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="sofa">
+              <img src="./image/sofa.png" alt="Image" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <div class="row g-5 mb-5">
+          <div class="col-lg-4">
+            <div class="mb-4 footer-logo-wrap">
+              <a href="#" class="footer-logo">Furni<span>.</span></a>
+            </div>
+            <p class="mb-4">
+              Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio
+              quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam
+              vulputate velit imperdiet dolor tempor tristique.
+            </p>
+            <ul class="list-unstyled custom-social">
+              <li>
+                <a href="#"><span class="fa fa-brands fa-facebook-f"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-brands fa-twitter"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-brands fa-instagram"></span></a>
+              </li>
+              <li>
+                <a href="#"><span class="fa fa-brands fa-linkedin"></span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="row links-wrap">
+              <div class="col-6 col-sm-6 col-md-3">
+                <ul class="list-unstyled">
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Contact us</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-sm-6 col-md-3">
+                <ul class="list-unstyled">
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Knowledge base</a></li>
+                  <li><a href="#">Live chat</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-sm-6 col-md-3">
+                <ul class="list-unstyled">
+                  <li><a href="#">Jobs</a></li>
+                  <li><a href="#">Our team</a></li>
+                  <li><a href="#">Leadership</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-sm-6 col-md-3">
+                <ul class="list-unstyled">
+                  <li><a href="#">Nordic Chair</a></li>
+                  <li><a href="#">Kruzo Aero</a></li>
+                  <li><a href="#">Ergonomic Chair</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-top copyright">
+          <div class="row pt-4">
+            <div class="col-lg-6">
+              <p class="mb-2 text-center text-lg-start">
+                Copyright &copy;
+                <script>
+                  document.write(new Date().getFullYear());
+                </script>
+                . All Rights Reserved. — Designed with love by
+                <a href="https://untree.co">Untree.co</a>
+                Distributed By
+                <a href="https://themewagon.com">ThemeWagon</a>
+              </p>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end">
+              <ul class="list-unstyled d-inline-flex ms-auto">
+                <li class="me-4"><a href="#">Terms &amp; Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
